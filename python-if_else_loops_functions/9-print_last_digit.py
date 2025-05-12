@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+def print_last_digit(number):
+    number = abs(number) % 10
+    print(f"{number}", end = "")
+
+//why is my r not storing a value?? 
