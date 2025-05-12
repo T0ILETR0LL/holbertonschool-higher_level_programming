@@ -7,3 +7,4 @@ def uppercase(str):
             c = ord(c)
         print("{}".format(chr(c)), end="")
     print()
+    
