@@ -12,3 +12,4 @@ if __name__ == "__main__":
     print("{} * {} = {}".format(a, b, sum))
     sum = div(a, b)
     print("{} / {} = {}".format(a, b, sum))
+    
