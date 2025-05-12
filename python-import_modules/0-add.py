@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-for letter in range(97, 123):
-    print("{}".format(chr(letter)), end="")
+import add_0
+
+a = 1
+b = 2
+sum = add_0.add(a,b)
+print(f"{a} + {b} = {sum}")
