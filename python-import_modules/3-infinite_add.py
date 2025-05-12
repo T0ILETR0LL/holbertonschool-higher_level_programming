@@ -14,4 +14,3 @@ if __name__ == "__main__":
         for count in range(1, length):
             sum = add(sum, int(argv[count+1]))
         print(f"{sum}")
-        
