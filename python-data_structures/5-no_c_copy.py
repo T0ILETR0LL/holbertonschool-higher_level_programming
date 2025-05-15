@@ -1,6 +1,12 @@
 #!/usr/bin/python3
-no_c = __import__('5-no_c').no_c
+my_string = "Best SchoCol"
 
-print(no_c("Best School"))
-print(no_c("Chicago"))
-print(no_c("C is fun!"))
+new_string = ""
+
+for c in my_string:
+    if c != 'c' and c != 'C':
+        print(c, end="")
+        new_string = new_string + c
+
+print()
+print(new_string)
