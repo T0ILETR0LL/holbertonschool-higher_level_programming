@@ -7,5 +7,5 @@ matrix = [
 
 for row in matrix:
     for value in row:
-        print("{}".format(value), end =" ")
+        print("{:d}".format(value), end =" ")
     print()
