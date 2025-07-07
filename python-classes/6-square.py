@@ -37,7 +37,7 @@ class Square:
         for i in value: ##HERE## needs to iterate the tuples
             if type(i) is not int:
                 raise TypeError("position must be a tuple of 2 positive intergers")
-            if i >= 0:
+            if i < 0:
                 raise TypeError("position must be a tuple of 2 positive intergers")
         self.__position = value
 
