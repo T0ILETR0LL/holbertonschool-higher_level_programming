@@ -30,11 +30,11 @@ class Square:
 
     @position.setter
     def position(self, value):
-        if isinstance(self.position, tuple):
+        if isinstance(value, tuple):
             raise TypeError ("position must be a tuple of 2 positive intergers")
-        if len(self.position) is not 2:
+        if len(value) is not 2:
             raise TypeError ("position must be a tuple of 2 positive intergers")
-        for i in self.position: ##HERE##
+        for i in value: ##HERE## needs to iterate the tuples
             if type(i) is not int:
                 raise TypeError("position must be a tuple of 2 positive intergers")
             if i < 0:
