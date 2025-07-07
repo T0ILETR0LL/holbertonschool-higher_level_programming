@@ -34,10 +34,10 @@ class Square:
             raise TypeError ("position must be a tuple of 2 positive intergers")
         if len(self.position) is not 2:
             raise TypeError ("position must be a tuple of 2 positive intergers")
-        for coord in self.position: ##HERE##
-            if type(value) is not int:
+        for i in self.position: ##HERE##
+            if type(i) is not int:
                 raise TypeError("position must be a tuple of 2 positive intergers")
-            if value < 0:
+            if i < 0:
                 raise TypeError("position must be a tuple of 2 positive intergers")
         self.__position = value
 
