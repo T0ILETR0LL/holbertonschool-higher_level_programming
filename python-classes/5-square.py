@@ -27,9 +27,9 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        if type(value) is not int:
+        if type(self.size) is not int:
             raise TypeError("size must be an integer")
-        if value < 0:
+        if self.size < 0:
             raise ValueError("size must be >= 0")
         if self.size is 0:
             print (" ")
