@@ -35,7 +35,7 @@ class Square:
         if len(value) is not 2:
             raise TypeError ("position must be a tuple of 2 positive intergers")
         for i in value: ##HERE## needs to iterate the tuples
-            if isinstance(i, tuple):
+            if isinstance(i, int):
                 raise TypeError("position must be a tuple of 2 positive intergers")
             if i < 0:
                 raise TypeError("position must be a tuple of 2 positive intergers")
