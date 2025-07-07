@@ -34,7 +34,7 @@ class Square:
             raise TypeError ("position must be a tuple of 2 positive intergers")
         if len(self.position) is not 2:
             raise TypeError ("position must be a tuple of 2 positive intergers")
-        for value in self.position:
+        for coord in self.position: ##HERE##
             if type(value) is not int:
                 raise TypeError("position must be a tuple of 2 positive intergers")
             if value < 0:
@@ -44,7 +44,7 @@ class Square:
     def area(self):
         return self.__size ** 2
 
-    def my_print(self): ##HERE## 
+    def my_print(self):
         if self.position[1] > 0:
             print ("\n")
         if self.size is 0:
