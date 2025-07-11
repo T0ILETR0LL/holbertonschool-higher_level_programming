@@ -21,9 +21,7 @@ class Rectangle:
         if self.width == 0 or self.height == 0:
             return ("")
         else:
-            for y in range(self.height):
-                for x in range(self.width):
-                    return ("#")
+            return ((("#" * self.width)+"\n")*self.height).rstrip()
 
     @property
     def width(self):
